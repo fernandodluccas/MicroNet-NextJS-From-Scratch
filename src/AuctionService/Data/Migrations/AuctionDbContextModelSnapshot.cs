@@ -28,13 +28,16 @@ namespace AuctionService.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<DateTime>("AuctionEnd")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<int?>("CurrentHighBid")
                         .HasColumnType("integer");
 
-                    b.Property<int>("ReserevePrice")
+                    b.Property<int>("ReservePrice")
                         .HasColumnType("integer");
 
                     b.Property<string>("Seller")
@@ -51,7 +54,6 @@ namespace AuctionService.Data.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Winner")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -72,8 +74,9 @@ namespace AuctionService.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("ImageUrl")
-                        .HasColumnType("integer");
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("Make")
                         .IsRequired()
@@ -94,7 +97,7 @@ namespace AuctionService.Data.Migrations
                     b.HasIndex("AuctionId")
                         .IsUnique();
 
-                    b.ToTable("Item");
+                    b.ToTable("Items");
                 });
 
             modelBuilder.Entity("AuctionService.Entities.Item", b =>

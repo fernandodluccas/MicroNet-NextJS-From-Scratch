@@ -11,11 +11,20 @@ namespace AuctionService.Data
         {
             using var scope = app.Services.CreateScope();
 
+            //SeedData(scope.ServiceProvider.GetService<AuctionDbContext>());
+#pragma warning disable CS8604 // Possível argumento de referência nula.
             SeedData(scope.ServiceProvider.GetService<AuctionDbContext>());
+#pragma warning restore CS8604 // Possível argumento de referência nula.
         }
 
         private static void SeedData(AuctionDbContext context)
         {
+
+            //if (context == null)
+            //{
+            //    throw new ArgumentNullException(nameof(context));
+            //}
+
             context.Database.Migrate();
 
             if (context.Auctions.Any())
