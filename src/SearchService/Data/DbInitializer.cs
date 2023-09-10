@@ -31,7 +31,5 @@ public class DbInitializer
         Console.WriteLine(items.Count + " returned from auction service");
 
         if (items.Count > 0) await DB.SaveAsync(items);
-        
-        
     }
 }
