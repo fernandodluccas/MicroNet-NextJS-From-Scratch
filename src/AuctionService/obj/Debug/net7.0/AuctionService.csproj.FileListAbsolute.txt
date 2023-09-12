@@ -43,3 +43,13 @@ C:\Users\dlucc\demo\Carsties\src\AuctionService\obj\Debug\net7.0\refint\AuctionS
 C:\Users\dlucc\demo\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.pdb
 C:\Users\dlucc\demo\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.genruntimeconfig.cache
 C:\Users\dlucc\demo\Carsties\src\AuctionService\obj\Debug\net7.0\ref\AuctionService.dll
+C:\Users\dlucc\demo\Carsties\src\AuctionService\bin\Debug\net7.0\MassTransit.dll
+C:\Users\dlucc\demo\Carsties\src\AuctionService\bin\Debug\net7.0\MassTransit.Abstractions.dll
+C:\Users\dlucc\demo\Carsties\src\AuctionService\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+C:\Users\dlucc\demo\Carsties\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\dlucc\demo\Carsties\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\dlucc\demo\Carsties\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dlucc\demo\Carsties\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\dlucc\demo\Carsties\src\AuctionService\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\dlucc\demo\Carsties\src\AuctionService\bin\Debug\net7.0\Contracts.dll
+C:\Users\dlucc\demo\Carsties\src\AuctionService\bin\Debug\net7.0\Contracts.pdb

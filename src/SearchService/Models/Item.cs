@@ -6,7 +6,7 @@ public class Item : Entity
 {
     public string Seller { get; set; }
     public string Winner { get; set; }
-    public int SoldAmount { get; set; }
+    public int? SoldAmount { get; set; }
     public int HighestBid { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
